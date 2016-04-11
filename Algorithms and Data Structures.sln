@@ -3,7 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.24720.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Algorithms and Data Structures", "Algorithms and Data Structures.vcxproj", "{B75A08E1-E5E7-4A32-8EA3-E1B60DA4039B}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Sort Algorithms", "Algorithms and Data Structures.vcxproj", "{B75A08E1-E5E7-4A32-8EA3-E1B60DA4039B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common headers", "Common headers", "{FC5886BC-6E7F-41B6-B260-2A1DDB8DF221}"
+	ProjectSection(SolutionItems) = preProject
+		performance_testing.cpp = performance_testing.cpp
+		performance_testing.h = performance_testing.h
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
